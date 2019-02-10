@@ -12,7 +12,12 @@ Function list:<br>
 <code>decryptFile($filename, $key)</code> - Decrypt file using key<br>
 <code>sendPost($url, $postData, $cookie_file, $useragent)</code> - send post query, save cookies in file<br>
 <code>getPost($url, $postData, $cookie_file, $useragent)</code> - send post query using cookies from file<br>
-<code>arrGen($count)</code> - generates a numbered array of numbers
+<code>arrGen($count)</code> - generates a numbered array of numbers<br>
+<code>strrposArray($haystack, $needle)</code> - Find the numeric position of the last occurrence of needle in the haystack array. Return array. 0 index - position, 1 index - where find<br>
+<code>strriposArray($haystack, $needle)</code> - Find the numeric position of the last occurrence of needle in the haystack array. Return array. 0 index - position, 1 index - where find<br>
+<code>strposArray($haystack, $needle)</code> - Find the numeric position of the first occurrence of needle in the haystack array. Return array. 0 index - position, 1 index - where find<br>
+<code>striposArray($haystack, $needle)</code> - Find the numeric position of the first occurrence of needle in the haystack array. Return array. 0 index - position, 1 index - where find<br>
+
 
 <b>Examples:</b><br><hr>
 <code>echo randWord(25)</code> <br>Out: 1+VqKb[M2&4M.u9#/{fNi{ICh<br><hr>
