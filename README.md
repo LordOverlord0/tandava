@@ -3,12 +3,18 @@ Tandava Lib - this is library for PHP, which adds large number functions.
 <h3>Hello World! I born!</h3>
 
 Function list:<br>
-<b>probability($percent)</b> - will return 1 with a certain probability<br>
-<b>randWord($countWords)</b> - random set of characters ANSI <br>
-<b>alphabet_randWord($alphabet, $countWords)</b> - random character set using your alphabet. Example alphabet: <i>abcdef0123456789</i><br>
-<b>maxIndex($array)</b> - returns index of the array with the highest number<br>
-<b>minIndex($array)</b> - returns index of the array with the smallest number<br>
-<b>cryptFile($filename, $key)</b> - Encrypt file using key<br>
-<b>decryptFile($filename, $key)</b> - Decrypt file using key<br>
-<b>sendPost($url, $postData, $cookie_file, $useragent)</b> - send post query, save cookies in file<br>
-<b>getPost($url, $postData, $cookie_file, $useragent)</b> - send post query using cookies from file<br>
+<code>probability($percent)</code> - will return 1 with a certain probability<br>
+<code>randWord($countWords)</code> - random set of characters ANSI <br>
+<code>alphabet_randWord($alphabet, $countWords)</code> - random character set using your alphabet. Example alphabet: <i>abcdef0123456789</i><br>
+<code>maxIndex($array)</code> - returns index of the array with the highest number<br>
+<code>minIndex($array)</code> - returns index of the array with the smallest number<br>
+<code>cryptFile($filename, $key)</code> - Encrypt file using key<br>
+<code>decryptFile($filename, $key)</code> - Decrypt file using key<br>
+<code>sendPost($url, $postData, $cookie_file, $useragent)</code> - send post query, save cookies in file<br>
+<code>getPost($url, $postData, $cookie_file, $useragent)</code> - send post query using cookies from file<br>
+<code>arrGen($count)</code> - generates a numbered array of numbers
+
+<b>Examples:</b><br><hr>
+<code>echo randWord(25)</code> <br>Out: 1+VqKb[M2&4M.u9#/{fNi{ICh<br><hr>
+<code>echo alphabet_randWord('abcdefghj123456789_!*',10)</code><br>Out: j31D87ha64<hr><br>
+<code>print_r(arrGen(10))</code><br>Out: <br>Array ( [0] => 0 [1] => 1 [2] => 2 [3] => 3 [4] => 4 [5] => 5 [6] => 6 [7] => 7 [8] => 8 [9] => 9 )<hr>
