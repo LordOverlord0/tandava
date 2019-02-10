@@ -48,9 +48,10 @@ function striposArray($haystack, $needle)
 /*==================FIND FUNCTIONS==================*/
 
 /*==================OTHER==================*/
-function arrGen($int)
+function arrGen($integer)
 {
-    for ($i = 0; $i < $int; $i++) $int[$i] = $i;
+    $int = null;
+    for ($i = 0; $i < $integer; $i++) $int[$i] = $i;
     return $int;
 }
 
