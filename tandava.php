@@ -103,6 +103,15 @@ function alphabet_randWord($alphabet, $int = 8)
     return $result;
 }
 
+function convertMoreInt($char)
+{
+    $zero_result = null; $i = 1;
+    $char = mb_strtolower($char);
+    list($num, $zero) = explode('e+', $char);
+    $num = str_replace('.', '', $num);
+    while ($i++ < $zero) $zero_result .= 0;
+    return $num.$zero_result;
+}
 
 function minIndex($arr)
 {
