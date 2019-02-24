@@ -18,7 +18,7 @@ Function list:<br>
 <code>strposArray($haystack, $needle)</code> - Find the numeric position of the first occurrence of needle in the haystack array. Return array. 0 index - position, 1 index - where find<br>
 <code>striposArray($haystack, $needle)</code> - Find the numeric position of the first occurrence of needle in the haystack array. Return array. 0 index - position, 1 index - where find<br>
 <code>convertMoreInt($int)</code> - convert str format (3.5477930175797E+23) to 354779301757970000000000000000000000 
-<code>user_function_exists($func)</code> - return 1, if exists specific user func
+<code>user_function_exists($func)</code> - return 1, if exists specific user func<br>
 <code>isJSON($string)</code> - return 1, if is json
 
 
