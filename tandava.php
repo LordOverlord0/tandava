@@ -55,6 +55,10 @@ function arrGen($integer)
     return $int;
 }
 
+function isJSON($string) {
+    return ((is_string($string) && (is_object(json_decode($string)) || is_array(json_decode($string))))) ? true : false;
+}
+
 function crypt($type, $text, $key = null)
 {
     if (!is_integer($key)) return 0;
