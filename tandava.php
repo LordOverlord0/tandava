@@ -83,6 +83,12 @@ function probability($percent)
     if ($percent >= mt_rand(1, 100)) return 1;
 }
 
+function user_function_exists($func) 
+{ 
+	$all_func = get_defined_functions(); 
+	if(in_array($func, $all_func['user'])) return 1; 
+}
+
 function randWord($int = 8)
 {
     $result = null;
